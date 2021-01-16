@@ -25,10 +25,5 @@ def country_data(name):
     return render_template('country.html', country=name)
 
 
-@app.route('/disease')
-def disease():
-    return render_template('disease.html')
-
-
 if __name__ == '__main__':
     app.run(debug=True)
