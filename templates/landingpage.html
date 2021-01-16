@@ -1,9 +1,40 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
 
-{% block head %} 
-<title>Welcome!</title>
-{% endblock %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static\css\landingpage.css">
+    <title>Welcome!</title>
+</head>
 
-{% block body %} 
-<h1> Airborne Home Page </h1>
-{% endblock %}
+<body>
+    <div id='bar'>
+        <div>
+            <ul>
+                <li><a href="/">AIRBORNE</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <div id='first'>
+            <div id='info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum molestiae amet, quas quasi autem
+                eveniet repudiandae nisi blanditiis assumenda. Magni, eligendi? Sequi doloribus commodi dolore ratione
+                accusamus sit sint facilis!
+            </div>
+        </div>
+        <div id='second'>
+            <div id='search-info'>
+                <h2>Ready to search?</h2>
+            </div>
+            <div id='search-bar'>
+                <input class='searchtxt' type="text" placeholder="Enter a location...">
+                <button type="submit" class="searchButton"></button>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
