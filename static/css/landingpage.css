@@ -39,6 +39,8 @@ a{
     padding: 20px;
     font-size: 1.2vw;
     font-weight: bold;
+    background-color:rgba(238, 241, 241, 0.849);
+    margin-left: 5px;
 }
 
 #second {
