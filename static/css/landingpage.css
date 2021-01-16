@@ -1,6 +1,3 @@
-body{
-    font-family: Helvetica;
-}
 
 * {
     margin: 0;
@@ -22,7 +19,7 @@ a{
 
 #bar {
     padding: 10px;
-    font-size: 1.7em;
+    font-size: 2vw;
     background-color: #f0f0f0;
 }
 #first {
@@ -32,7 +29,7 @@ a{
     width: 100%;
     height: 400px;
     background-image: url("plane.jfif");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
 }
@@ -40,6 +37,8 @@ a{
 #info {
     width: 50%;
     padding: 20px;
+    font-size: 1.2vw;
+    font-weight: bold;
 }
 
 #second {
@@ -48,9 +47,10 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 #search-bar {
-    padding-top: 15px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
 }
