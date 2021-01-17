@@ -5,5 +5,19 @@ body{
 
 #header{
     display: flex;
-    text-align: center
+    justify-content: center;
+}
+
+#box1{
+    background-color: white;
+}
+
+h1{
+    justify-content: center;
+}
+
+
+.flag{
+    display: flex;
+    padding-left: 300px;
 }
