@@ -11,7 +11,11 @@ def landingpage():
 
 @app.route('/', methods=['POST'])
 def search():
+    mood = ""
     keyword = request.form['country']
+    if get_worse_disease(keyword.title()) == -1:
+        mood = 'Please enter a valid country'
+        return render_template('landingpage.html', errorm=mood)
     return redirect("/country/"+keyword)
 
 
