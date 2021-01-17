@@ -11,11 +11,13 @@ body{
     margin: 0;
     padding: 0;
   }
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+
 a{
     text-decoration: none;
     color: rgb(24, 141, 156);
@@ -62,6 +64,10 @@ h1{
 .text {
     width: 75%;
     padding-bottom: 4%;
+}
+
+.text ul {
+    padding-left: 30px;
 }
 
 .desc {
