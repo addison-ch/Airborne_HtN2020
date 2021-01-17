@@ -24,7 +24,7 @@ def get_worse_disease(country: str):
     
     countries_list = [c["country"] for c in countries_response_json]
 
-    if country in not countries_list:
+    if country not in countries_list:
         return -1
 
     # getting the endpoint
@@ -37,7 +37,7 @@ def get_worse_disease(country: str):
     return country['largest_disease']
 
 
-print(get_worse_disease('Afghanistan'))
+print(get_worse_disease('China'))
 
 
 
