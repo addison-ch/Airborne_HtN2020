@@ -37,6 +37,8 @@ a{
 #info {
     width: 50%;
     padding: 20px;
+    padding-left: 35px;
+    font-size: 1.4em;
 }
 
 #second {
