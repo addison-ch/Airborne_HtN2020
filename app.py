@@ -25,7 +25,16 @@ def country_data(name):
     name = name.title()
     disease = get_worse_disease(name)
     disease = disease.split()[0]
-    return render_template('country.html', country=name, d=disease)
+    if disease == 'Influenza':
+        return render_template('influenza.html', country=name, d=disease)
+    elif disease == 'HIV':
+        return render_template('hiv.html', country=name, d=disease)
+    elif disease == 'Malaria':
+        return render_template('malaria.html', country=name, d=disease)
+    elif disease == 'Cholera':
+        return render_template('cholera.html', country=name, d=disease)
+    elif disease == 'Tuberculosis':
+        return render_template('tuberculosis.html', country=name, d=disease)
 
 
 if __name__ == '__main__':
