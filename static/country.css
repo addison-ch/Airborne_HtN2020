@@ -1,9 +1,0 @@
-body{
-    font-family: Helvetica;
-    background-color: pink;
-}
-
-#header{
-    display: flex;
-    text-align: center
-}
